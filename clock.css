@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(72, 47, 96);
+    font-size: 1.5em;
+    
+}
+.head {
+    display: flex;
+    justify-content: center;
+    color: rgb(236, 188, 17);
+    font-family: cursive;
+    padding: 1em;
+    
+}
+.head h1{
+    border-bottom: 2px solid gold;
+
+}
+.clock1{
+    color: rgb(218, 149, 30);
+    text-align: center;
+}
+#clock{
+    color:rgb(218, 149, 30);
+    font-family:Orbitron;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 6px;
+    font-size: 70px;
+
+}
